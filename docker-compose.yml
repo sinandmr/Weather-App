@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  backend:
+    # container_name: backend
+    # image: backendimage
+    build: ./server
+    networks:
+      - webnet
+    restart: always
+    ports:
+      - '3005:3005'
+    environment:
+      - SERVER_PORT=3005
+      - NODE_ENV=development
+      - DB_USER=sinan
+      - DB_PASS=123
+      - DB_NAME=backend
+      - DB_HOST=database
+      - OPEN_WEATHER_APP_API_KEY=f8bfbd9dba76e8ffca7d04ec59c8d87e
+    depends_on:
+      - veritabani
+
+  database:
+    container_name: veritabani
+    image: postgres
+    networks:
+      - webnet
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_USER=sinan
+      - POSTGRES_PASSWORD=123
+      - POSTGRES_DB=backend
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  frontend:
+    # container_name: frontend
+    # image: frontendimage
+    build: ./client
+    ports:
+      - '3006:3006'
+    environment:
+      - REACT_APP_WEATHER_API_KEY=f8bfbd9dba76e8ffca7d04ec59c8d87e
+      - REACT_APP_BACKEND_PORT=3005
+      - PORT=3006
+    depends_on:
+      - backend
+    networks:
+      - webnet
+
+volumes:
+  db_data:
+
+networks:
+  webnet:
+    driver: bridge
+# hepsinin bridge network üzerinden birbiri ile haberleşmesi gerekiyor.
+

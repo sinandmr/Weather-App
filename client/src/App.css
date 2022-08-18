@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 450px;
+  height: 220px;
+  background: #eeeeee 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 50%;
+}
+.location {
+  margin: 33px 15px 0px 36px;
+  width: 14px;
+  height: 17px;
+}
+.cities {
+  font-size: 14px;
+  color: #8d8d8d;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.icon {
+  margin: 18px 0px 0px 53px;
+}
+.date {
+  color: #8d8d8d;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 32px;
+  display: inline-block;
+  margin-right: 16px;
+}
+.icon2 {
+  margin: 32px 26px 0 0;
+  width: 19px;
+  height: 20px;
+}
+.bot2 {
+  color: #000000;
+}
+.clock {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.degree {
+  font-size: 35px;
+}
+.degree-container p {
+  margin: 0;
+  font-weight: bold;
+}
+.morning,
+.evening {
+  font-weight: normal !important;
+}
+.back-data {
+  opacity: 0.5;
+  text-align: end;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}

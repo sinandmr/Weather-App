@@ -1,0 +1,9 @@
+<svg id="Component_2_1" data-name="Component 2 – 1" xmlns="http://www.w3.org/2000/svg" width="19.384" height="19.582" viewBox="0 0 19.384 19.582">
+  <path id="Path_150" data-name="Path 150" d="M950.784,648.872H940.109a4.359,4.359,0,0,1-4.354-4.354V635.7a4.359,4.359,0,0,1,4.354-4.354h10.675a4.359,4.359,0,0,1,4.354,4.354v8.822A4.359,4.359,0,0,1,950.784,648.872Zm-10.675-15.808a2.635,2.635,0,0,0-2.632,2.632v8.822a2.635,2.635,0,0,0,2.632,2.632h10.675a2.635,2.635,0,0,0,2.632-2.632V635.7a2.635,2.635,0,0,0-2.632-2.632Z" transform="translate(-935.755 -629.29)" fill="#fcbb32"/>
+  <rect id="Rectangle_76" data-name="Rectangle 76" width="17.661" height="1.722" transform="translate(0.861 7.013)" fill="#fcbb32"/>
+  <rect id="Rectangle_77" data-name="Rectangle 77" width="2.644" height="2.644" rx="1.322" transform="translate(3.553 10.359)" fill="#fcbb32"/>
+  <rect id="Rectangle_78" data-name="Rectangle 78" width="2.644" height="2.644" rx="1.322" transform="translate(8.523 10.359)" fill="#fcbb32"/>
+  <rect id="Rectangle_79" data-name="Rectangle 79" width="2.644" height="2.644" rx="1.322" transform="translate(13.494 13.325)" fill="#fcbb32"/>
+  <path id="Path_151" data-name="Path 151" d="M954.043,629.624a.861.861,0,0,1-.861-.861v-4a.861.861,0,1,1,1.722,0v4A.861.861,0,0,1,954.043,629.624Z" transform="translate(-948.377 -623.9)" fill="#fcbb32"/>
+  <path id="Path_152" data-name="Path 152" d="M984.05,629.624a.861.861,0,0,1-.861-.861v-4a.861.861,0,1,1,1.722,0v4A.861.861,0,0,1,984.05,629.624Z" transform="translate(-970.11 -623.9)" fill="#fcbb32"/>
+</svg>
